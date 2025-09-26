@@ -1,9 +1,9 @@
 package Assignment1;
 
-public class Merge_sort {
+public class MergeSortClass {
 
     // Cutoff value for switching to insertion sort
-    private static final int CUTOFF = 10;
+    private static final int CUTOFF = 13;
 
     // Public entry point
     public static void mergeSort(int[] arr) {
@@ -70,7 +70,7 @@ public class Merge_sort {
 
     // Example test
     public static void main(String[] args) {
-        int[] arr = {38, 27, 43, 3, 9, 82, 10};
+        int[] arr = {38, 27, 43, 3, 9, 82, 10, 14, 34, 29, 55};
 
         System.out.println("Before sorting:");
         for (int num : arr) System.out.print(num + " ");
