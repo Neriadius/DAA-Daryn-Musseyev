@@ -5,7 +5,7 @@ This project was created for the course "Design and Analysis of Algorithms (DAA)
 Project Location
 
 The project is located at:
-C:\Users\musee\Desktop\DAA\DAA-Daryn-Musseyev\Java hw\src\Assignment1
+C:\DAA-Daryn-Musseyev\Java hw\src\Assignment1
 
 Requirements
 
