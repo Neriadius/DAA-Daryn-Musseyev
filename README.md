@@ -27,33 +27,19 @@ Run the tests with Maven as well.
 
 Implemented Algorithms
 
-MergeSort
-
-baseline implementation
-
-optimization with a reusable buffer
-
-cutoff for small arrays
-
-QuickSort
-
-randomized pivot selection
-
-recursion into the smaller partition first (stack limited to O(log n))
-
-Deterministic Select
-
-Median-of-Medians (MoM5)
-
-in-place partition
-
-recursion only into the smaller side
-
-Closest Pair of Points (2D)
-
-divide-and-conquer method
-
-“strip” check by Y-coordinate with 7–8 neighbors
+1. MergeSort (D&C, Master Case 2)
+• Linear merge;
+• reusable buffer;
+• small-n cut-off (e.g., insertion sort).
+2. QuickSort (robust)
+• Randomized pivot;
+• recurse on the smaller partition, iterate over the larger one
+• (bounded stack ≈ O(log n) typical).
+3. Deterministic Select (Median-of-Medians, O(n))
+• Group by 5, median of medians as pivot, in-place partition;
+• recurse only into the needed side (and prefer recursing into the smaller side).
+4. Closest Pair of Points (2D, O(n log n))
+• Sort by x, recursive split, “strip” check by y order (classic 7–8 neighbor scan).
 
 Metrics
 
