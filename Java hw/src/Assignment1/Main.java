@@ -13,7 +13,7 @@ public class Main {
         Random random = new Random();
 
         for (int i = 0; i < len; i++) {
-            sample_arr[i] = random.nextInt(6);
+            sample_arr[i] = random.nextInt(1, 999);
         }
 
         System.out.println("Sample arr: " + Arrays.toString(sample_arr));
